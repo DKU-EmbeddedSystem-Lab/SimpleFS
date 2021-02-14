@@ -1,6 +1,10 @@
 ## SimpleFS
-
-compiling sfs format tool
+you can clone sfs with
+  ```
+  https://github.com/DKU-EmbeddedSystem-Lab/SimpleFS.git
+  ```
+  
+#compiling sfs format tool
   ```
   cd mkfs
   make
@@ -10,7 +14,7 @@ then, you can format /dev/name with
   ./mkfs /dev/name
   ```
 
-to mount sfs on /dev/name
+#mount sfs on /dev/name
 compile sfs
   ```
   cd ..
