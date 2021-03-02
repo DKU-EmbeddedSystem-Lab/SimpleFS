@@ -1,1 +1,0 @@
-cmd_/home/sys32153550/workspace/SimpleFS/sfs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/sys32153550/workspace/SimpleFS/sfs.ko /home/sys32153550/workspace/SimpleFS/sfs.o /home/sys32153550/workspace/SimpleFS/sfs.mod.o;  true
